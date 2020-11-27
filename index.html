@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/abf2de4010.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>كل يوم حديث</title>
+</head>
+<body>
+    
+    <div class="root">
+        
+        <div class="header">
+            <!--<div class="search">
+                <input type="text" class="search-box">
+            </div>-->
+            <div class="date">
+                <div class="date-content" id="dateContent">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="clock">
+            
+        </div>
+        <div class="main-show">
+
+            <div class="translation">
+                <button class="btn-close">X</button>
+                <p id="translation"></p>
+            </div>
+
+            <div class="content" id="hadith-content">
+                <p id="hadith"></p>
+            </div>
+
+            <div class="edits-btn">
+                <div class="next" id="next" >
+                    <span><i class="fas fa-angle-right"></i></span>
+                </div>
+                <div class="report" id="report">
+                    <span><i class="fas fa-bug"></i></span>
+                </div>
+                <div class="translate" id="translate">
+                    <span><i class="fas fa-language"></i></span>
+                </div>
+                <div class="prev" id="prev">
+                    <span><i class="fas fa-angle-left"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom">
+            <div class="settings">
+                <div class="settings-panel" id="settings-panel">
+                    <div class="title">
+                        <h2>Settings</h2>
+                    </div>
+                    <div class="date">
+                        <div class="toggle toggle-active" isActive="false" id="changeDate">
+                            <div class="toggle-circle"></div>
+                        </div>
+                        <label>التاريخ الهجري</label>
+                    </div>
+                </div>
+                <div class="settings-show" id="settings-show">
+                    <span><i class="fas fa-cog"></i></span>
+                </div>
+                
+            </div>
+            <div class="prayer">
+
+            </div>
+            <div class="about">
+                <div class="about-panel">
+                    
+                </div>
+                <div class="about-show">
+                    <span><i class="fas fa-info"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="files/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
