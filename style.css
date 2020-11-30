@@ -248,7 +248,7 @@
 }
 
 .settings-opened{
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-direction: column;
 }
